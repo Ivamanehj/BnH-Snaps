@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+nav{
+    position: absolute;
+    background: rgba(255, 255,255 , 0.1 );
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.849);
+   
+    
+
+}
+
+nav .menu{
+
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.menu .logo a{
+
+text-decoration: none;
+color: #fff;
+font-size: 35px;
+font-weight: 600;
+}
+
+
+.menu ul{
+
+    display: inline-flex;
+
+}
+.menu ul li{
+
+    list-style: none;
+    margin-left: 7px;
+
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+
+    background: #fff;
+    color: #000;
+
+}
+.img {
+    background: url(Mabry.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img::before{
+ content: '';
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ background: rgba(0, 0,0 , 0.4 ) ;
+}
+
+.center{
+position: absolute;
+top: 52%;
+left: 50%;
+width: 100%;
+transform: translate(-50%, -50%);
+padding: 0 20px;
+text-align: center;
+
+}
+.center .title {
+
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+
+
+}
+.center .sub-title {
+
+color: #fff;
+font-size: 52px;
+font-weight: 600;
+
+}
+.center .btns {
+
+    margin-top: 20px;
+
+}
+.center .btns button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border:  2px solid #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+
+}
+
+.center .btns button:first-child {
+color: #fff;
+background: none;
+
+}
+.center .btns button:first-child:hover {
+
+    background:#fff;
+    color: #000;
+}
+
+
+.container{
+position: absolute;
+top: 52%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px  60px 40px 40px;
+background: rgba(255, 255,255 , 0.1 );
+width: relative;
+box-shadow:  2px 2px 5px 5px rgba(243, 240, 239, 0.26);
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container .content .left-side {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    text-align:center;
+    margin-top: 15px;
+   
+
+}
+.content .left-side::before {
+
+content: '';
+position:absolute;
+height: 70% ;
+width: 2px;
+right: -15px;
+top: 50%;
+transform: translateY(-50%);
+background-color: white;
+
+}
+
+
+.container .content .details i {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.container .content .details .topic {
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container .content .left-side .text-one,
+.container .content .left-side .text-two{
+ font-size: 14px;
+ color: white;
+ 
+
+}
+
+.container .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.content .right-side .topic-text {
+
+     font-size: 23px;
+     font-weight: 600;
+     color: white;
+
+
+}
+
+ .right-side .input-box{
+ height: 50px;
+ width: 100%;
+ margin: 12px 0;
+
+ 
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 16px;
+    padding: 0 15px;
+    resize: none;
+    
+}
+
+.right-side .message-box {
+
+    min-height: 110px;
+    
+}
+.right-side .button input[type="button"] {
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background: rgba(16, 17, 16, 0);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    
+}
+.button input[type="button"]:hover {
+    background: rgb(255, 252, 252);
+    color: #000;
+}
+
+.foot {
+    position: absolute;
+    top: 97%;
+    left: 40%;
+    
+    
+}
+
+.text-box {
+    position: absolute;
+    left: 100% ;
+    top: 50%;
+    right: 50%px ;
+    
+}
+
+.Profile-Card
+{
+
+display: flex;
+flex-direction:column ;
+align-items: center;
+width: 50%;
+background: #cc1313;
+border-radius: 50px ;
+padding: 25px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.884);
+left: 100px;
+
+}
+.Image {
+
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.Image .Profile-Img {
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+
+
+}
+
+.Profile-Card .Text-Data {
+
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    color: #333;
+}
+
+.Text-Data .Name {
+
+    font-size: 22px ;
+    font-weight: 500;
+}
+.Text-Data .Status {
+
+    font-size: 15px ;
+    font-weight: 400;
+}
+
+.Profile-Card .Media-Buttons {
+ display: flex;
+ align-items: center;
+ margin-top: 15px;
+}
+
+.Media-Buttons .link  {
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 18px;
+height: 34px;
+width: 34px;
+border-radius: 50%;
+margin: 0 8px;
+background-color: #4070f4;
+text-decoration: none;
+}
+
+.Profile-Card .Buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px ;
+}
+
+.Buttons .Button{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition:  all 0.3s ease;
+}
+.Buttons .Button:hover {
+
+    background-color: #0e4bf1;
+
+}
+
+.Profile-Card .Analytics {
+display: flex;
+align-items: center;
+margin-top: 25px;
+}
+
+.Analytics .Data{
+display: flex;
+align-items: center;
+color: #333;
+padding: 0 20px;
+border-right: 2px solid #e7e7e7;
+
+}
+data i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+.data:last-child {
+    border-right: none;
+}
